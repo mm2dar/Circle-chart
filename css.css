@@ -1,0 +1,90 @@
+@font-face {
+    font-family:"vazir";
+    src: url(./vazir-font-v16.1.0//Vazir.ttf);
+}
+body{
+    margin: 0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(61, 61, 61);
+}
+.svgOrg{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.divParentOrg{
+    margin: auto;
+    padding: 30px;
+    height: 300px;
+    width: min-content;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.batteri{
+    filter: grayscale(100%);
+    width: 110px;
+    position: absolute;
+    margin-top: -160px;
+    margin-left: 39.5px;
+    z-index: 11;
+}
+.figcaptionOrg{
+    padding: 50px 25px;
+    border-radius: 100px;
+    background-color: rgb(201, 201, 201);
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    border: 20px solid rgb(95, 95, 95);
+    line-height: 159px;
+    z-index: 9;
+}
+
+.outer{
+    stroke: aqua;
+    stroke-dasharray: 534;
+    stroke-linecap: round;
+    z-index: 10;
+    margin-top: -20px;
+    transition: stroke-dashoffset 1s;
+
+    animation-play-state: running;
+    -webkit-animation-play-state: running;
+    -moz-transform: rotate(-90deg)  translateX(-190px);
+}
+.chart>svg{
+    margin-top: -200px;
+    margin-bottom: 4px;
+}
+
+
+
+.outer{
+    stroke-dashoffset: 75% ;
+    -webkit-animation: animatic 2s;
+
+}
+.figcaptionOrg{
+    font-family:"vazir";
+    font-weight: bolder;
+
+}
+@keyframes animatic {
+    0%{
+        stroke-dashoffset: ;
+    }
+    100%{
+
+    }
+}
+
+
+
+
